@@ -175,7 +175,7 @@ const ContactSection = () => {
             viewport={{ once: true }}
           >
             <div className="bg-gradient-to-br from-demigod-blue to-demigod-gradient-purple rounded-lg p-8 text-white mb-8">
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white ">Contact Information</h3>
 
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -183,7 +183,7 @@ const ContactSection = () => {
                     <Mail className="h-5 w-5" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-1">Email Us</h4>
+                    <h4 className="text-lg font-semibold mb-1 text-white">Email Us</h4>
                     <a href="mailto:info@demigodcloud.com" className="text-white/80 hover:text-white transition-colors">
                       info@demigodcloud.com
                     </a>
@@ -191,11 +191,11 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-white/20 p-3 rounded-full mr-4">
+                  <div className="bg-white/20 p-3 roundetext-whited-full mr-4">
                     <Phone className="h-5 w-5" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-1">Call Us</h4>
+                    <h4 className="text-lg font-semibold mb-1 text-white">Call Us</h4>
                     <a href="tel:+918355897803" className="text-white/80 hover:text-white transition-colors block">
                       +91-8355897803
                     </a>
@@ -210,7 +210,7 @@ const ContactSection = () => {
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold mb-1">Corporate Office</h4>
+                    <h4 className="text-lg font-semibold mb-1 text-white">Corporate Office</h4>
                     <p className="text-white/80">
                       208, PMB, Opera House, Mumbai,<br />
                       Maharashtra, INDIA

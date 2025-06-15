@@ -44,7 +44,7 @@ const AboutPage = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-4xl md:text-5xl font-bold mb-6"
+              className="text-4xl md:text-5xl font-bold mb-6 text-white"
             >
               About DemigodCloud
             </motion.h1>
@@ -191,11 +191,11 @@ const AboutPage = () => {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-demigod-blue to-demigod-gradient-purple rounded-lg p-8 text-white"
             >
-              <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
-              <p className="mb-4">
+              <h3 className="text-2xl font-bold mb-4 text-white">Our Vision</h3>
+              <p className="mb-4 text-white">
                 To be the leading digital transformation partner for businesses worldwide, known for our innovative solutions, technical excellence, and unwavering commitment to client success.
               </p>
-              <p>
+              <p className='text-white'>
                 We aim to create a future where technology empowers businesses of all sizes to reach their full potential and deliver exceptional experiences to their customers.
               </p>
             </motion.div>

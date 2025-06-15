@@ -44,9 +44,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <span className="text-2xl font-bold text-demigod-blue">
+          {/* <span className="text-2xl font-bold text-demigod-blue">
             Demigod<span className="text-demigod-teal">Cloud</span>
-          </span>
+          </span> */}
+          <img src='https://www.demigodcloud.com/images/demigod%20vector%20nav.webp' className='w-56'></img>
         </Link>
 
         {/* Desktop Navigation */}
