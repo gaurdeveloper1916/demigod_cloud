@@ -151,103 +151,104 @@ const ServiceCard = ({ service }) => {
 
 const ServicesPage = () => {
   return (
-    <div className="bg-white">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-r from-demigod-blue to-demigod-gradient-purple py-20 text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="text-4xl md:text-5xl font-bold mb-6"
-            >
-              Our Services
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-xl text-gray-100"
-            >
-              Comprehensive digital solutions to help your business thrive in the modern digital landscape.
-            </motion.p>
-          </div>
-        </div>
-      </section>
+    // <div className="bg-white">
+    //   {/* Hero Section */}
+    //   <section className="bg-gradient-to-r from-demigod-blue to-demigod-gradient-purple py-20 text-white">
+    //     <div className="container mx-auto px-4">
+    //       <div className="max-w-3xl mx-auto text-center">
+    //         <motion.h1
+    //           initial={{ opacity: 0, y: 20 }}
+    //           animate={{ opacity: 1, y: 0 }}
+    //           transition={{ duration: 0.5 }}
+    //           className="text-4xl md:text-5xl font-bold mb-6"
+    //         >
+    //           Our Services
+    //         </motion.h1>
+    //         <motion.p
+    //           initial={{ opacity: 0 }}
+    //           animate={{ opacity: 1 }}
+    //           transition={{ duration: 0.5, delay: 0.2 }}
+    //           className="text-xl text-gray-100"
+    //         >
+    //           Comprehensive digital solutions to help your business thrive in the modern digital landscape.
+    //         </motion.p>
+    //       </div>
+    //     </div>
+    //   </section>
 
-      {/* Services Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-bold text-demigod-blue mb-6"
-            >
-              Explore Our Services
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-gray-600 text-lg"
-            >
-              We offer a wide range of digital services to help businesses of all sizes achieve their goals.
-              From web and mobile development to digital marketing and cloud solutions,
-              we have the expertise to deliver exceptional results.
-            </motion.p>
-          </div>
+    //   {/* Services Section */}
+    //   <section className="py-20">
+    //     <div className="container mx-auto px-4">
+    //       <div className="max-w-3xl mx-auto text-center mb-16">
+    //         <motion.h2
+    //           initial={{ opacity: 0, y: 20 }}
+    //           whileInView={{ opacity: 1, y: 0 }}
+    //           transition={{ duration: 0.5 }}
+    //           viewport={{ once: true }}
+    //           className="text-3xl md:text-4xl font-bold text-demigod-blue mb-6"
+    //         >
+    //           Explore Our Services
+    //         </motion.h2>
+    //         <motion.p
+    //           initial={{ opacity: 0 }}
+    //           whileInView={{ opacity: 1 }}
+    //           transition={{ duration: 0.5, delay: 0.2 }}
+    //           viewport={{ once: true }}
+    //           className="text-gray-600 text-lg"
+    //         >
+    //           We offer a wide range of digital services to help businesses of all sizes achieve their goals.
+    //           From web and mobile development to digital marketing and cloud solutions,
+    //           we have the expertise to deliver exceptional results.
+    //         </motion.p>
+    //       </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => (
-              <ServiceCard key={service.id} service={service} />
-            ))}
-          </div>
-        </div>
-      </section>
+    //       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    //         {services.map((service) => (
+    //           <ServiceCard key={service.id} service={service} />
+    //         ))}
+    //       </div>
+    //     </div>
+    //   </section>
 
-      {/* Call to Action Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto bg-gradient-to-r from-demigod-blue to-demigod-gradient-purple rounded-lg p-10 text-white text-center">
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="text-3xl font-bold mb-4"
-            >
-              Ready to Transform Your Business?
-            </motion.h2>
-            <motion.p
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-xl mb-8"
-            >
-              Let's discuss how our services can help you achieve your business goals.
-            </motion.p>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              viewport={{ once: true }}
-            >
-              <Link href="/contact">
-                <Button className="bg-white text-demigod-blue hover:bg-opacity-90 px-8 py-3 text-lg font-medium rounded-md">
-                  Contact Us Today
-                </Button>
-              </Link>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-    </div>
+    //   {/* Call to Action Section */}
+    //   <section className="py-20 bg-gray-50">
+    //     <div className="container mx-auto px-4">
+    //       <div className="max-w-4xl mx-auto bg-gradient-to-r from-demigod-blue to-demigod-gradient-purple rounded-lg p-10 text-white text-center">
+    //         <motion.h2
+    //           initial={{ opacity: 0, y: 20 }}
+    //           whileInView={{ opacity: 1, y: 0 }}
+    //           transition={{ duration: 0.5 }}
+    //           viewport={{ once: true }}
+    //           className="text-3xl font-bold mb-4"
+    //         >
+    //           Ready to Transform Your Business?
+    //         </motion.h2>
+    //         <motion.p
+    //           initial={{ opacity: 0 }}
+    //           whileInView={{ opacity: 1 }}
+    //           transition={{ duration: 0.5, delay: 0.2 }}
+    //           viewport={{ once: true }}
+    //           className="text-xl mb-8"
+    //         >
+    //           Let's discuss how our services can help you achieve your business goals.
+    //         </motion.p>
+    //         <motion.div
+    //           initial={{ opacity: 0 }}
+    //           whileInView={{ opacity: 1 }}
+    //           transition={{ duration: 0.5, delay: 0.4 }}
+    //           viewport={{ once: true }}
+    //         >
+    //           <Link href="/contact">
+    //             <Button className="bg-white text-demigod-blue hover:bg-opacity-90 px-8 py-3 text-lg font-medium rounded-md">
+    //               Contact Us Today
+    //             </Button>
+    //           </Link>
+    //         </motion.div>
+    //       </div>
+    //     </div>
+    //   </section>
+    // </div>
+   <p>Coming soon</p>
   );
 };
 
