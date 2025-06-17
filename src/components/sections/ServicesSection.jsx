@@ -103,10 +103,11 @@ const ServicesSection = () => {
             viewport={{ once: true }}
           >
             <h2 className="heading-underline inline-block mb-6 pb-2">
-              What makes us the <span className="text-demigod-teal">Best Website Development Company</span>?
+              What makes us <span className="text-demigod-teal">Standout</span>?
             </h2>
             <p className="text-gray-600 text-lg">
-              We combine expertise, innovation, and client-focused solutions to deliver exceptional digital experiences that help businesses grow in the modern landscape.
+              From idea to execution- we work across product strategy, design, development, and growth. All with one goal - to make the build actually serve the business.
+
             </p>
           </motion.div>
         </div>

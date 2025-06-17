@@ -126,10 +126,9 @@ const TechnologiesSection = () => {
           viewport={{ once: true }}
           className="bg-gradient-to-r from-demigod-blue to-demigod-gradient-purple rounded-lg p-8 mt-16 text-white text-center max-w-4xl mx-auto"
         >
-          <h3 className="text-2xl font-bold mb-4 text-white ">Let's discuss your project requirements</h3>
+          <h3 className="text-2xl font-bold mb-4 text-white ">Let’s talk about what you're building</h3>
           <p className="mb-6 text-white ">
-            Our team of experts will help you determine the best technology stack for your project
-            based on your specific business needs and goals.
+            Whether you’re just starting out or looking to scale, we can help you take the next step. Get a clear plan, expert input, and real numbers, before you spend on the build.
           </p>
           <button className="bg-white text-demigod-blue px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-all">
             Get in Touch

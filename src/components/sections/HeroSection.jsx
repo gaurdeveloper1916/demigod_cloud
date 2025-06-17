@@ -24,10 +24,10 @@ const HeroSection = () => {
             className="text-center lg:text-left"
           >
             <h1 className="text-white mb-6 leading-tight">
-              Best E-Commerce Website Development Company in India
+              Helping You Build Digital Platforms that Drive Business.
             </h1>
             <p className="text-gray-300 text-lg mb-8 max-w-xl mx-auto lg:mx-0">
-              Revolutionize your business and profits to higher notes with the best team in Asia pacific! We deliver exceptional digital experiences that transform how customers interact with your brand.
+              It is always risky to build something from scratch. You need capital,  talent and a successful execution of the idea. And that's where we stand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button className="btn-secondary group">
