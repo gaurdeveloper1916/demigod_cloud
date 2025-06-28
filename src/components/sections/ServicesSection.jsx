@@ -9,34 +9,34 @@ import { Check, ChevronRight } from 'lucide-react';
 
 const services = [
   {
-    id: 'ecommerce',
-    title: 'E-Commerce Apps',
+    id: 'business-first',
+    title: 'Business-first mindset',
     icon: 'https://ext.same-assets.com/4163753834/3093550014.webp',
-    description: 'If you plan to step ahead of your competition with a user-friendly e-commerce app. Our team of experts present an ecommerce application with exclusive features like customized product catalog, multiple payment gateways, and more.',
+    description: 'We don’t just write code, we build platforms that serve real goals. Every decision starts with your business in mind.',
     features: ['Customized product catalog', 'Multiple payment gateways', 'Reporting tools', 'High-quality images'],
     link: '/services/ecommerce'
   },
   {
-    id: 'digital-marketing',
-    title: 'Digital Marketing Services',
+    id: 'Speed without chaos',
+    title: 'Speed without chaos',
     icon: 'https://ext.same-assets.com/4163753834/2324484177.webp',
-    description: 'Want to rank top on Google SERP? With our expertise in digital marketing strategies we build your brand identity via marketing channels and tools like SEO, SMO, SMM, Content marketing, and email marketing.',
+    description: 'We move fast, but never messy. Our process is lean, focused, and structured to reduce waste and avoid rework.',
     features: ['SEO optimization', 'Social media marketing', 'Content strategy', 'Email campaigns'],
     link: '/services/digital-marketing'
   },
   {
-    id: 'design',
-    title: 'Team of Best Designers',
+    id: 'Built for traction',
+    title: 'Built for traction',
     icon: 'https://ext.same-assets.com/4163753834/2907551384.webp',
-    description: 'A good team of designers have a great impact on your online business. Our team of professionals help your business with the designing and developing process. With new trend graphics and animations, we ensure eye-catching designs.',
+    description: 'We help you build what users will adopt, and what converts. Strategy and design choices are always tied to growth.',
     features: ['UI/UX design', 'Brand identity', 'Web design', 'App interface design'],
     link: '/services/design'
   },
   {
-    id: 'mobile-app',
-    title: 'Mobile App Development',
+    id: 'Backed by long-term thinking',
+    title: 'Backed by long-term thinking',
     icon: 'https://ext.same-assets.com/4163753834/1280216548.webp',
-    description: "Demigod cloud aims to help global brands and businesses by developing mobile apps that can build the company's brand identity. Our mobile app developers have expertise in building solutions that meet market needs.",
+    description: "As part of a hedge fund structure, we think like investors. We care about what scales, not just what launches.",
     features: ['iOS & Android development', 'Cross-platform apps', 'Hybrid solutions', 'App maintenance'],
     link: '/services/mobile-app'
   },
