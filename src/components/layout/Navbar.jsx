@@ -55,7 +55,7 @@ const Navbar = () => {
             <Link
               key={link.path}
               href={link.path}
-              className={`nav-link font-medium ${isScrolled ? 'text-black' : 'text-white'}`}
+              className={`nav-link font-medium ${isScrolled ? 'text-black' : 'text-demigod-teal'}`}
             >
               {link.name}
             </Link>
