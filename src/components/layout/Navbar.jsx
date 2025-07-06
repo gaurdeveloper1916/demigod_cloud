@@ -20,7 +20,9 @@ const Navbar = () => {
     { name: 'Services', path: '/services' },
     { name: 'About Us', path: '/about' },
     { name: 'Blog', path: '/blog' },
+     { name: 'Hardware', path: '/hardware' },
     { name: 'Contact', path: '/contact' },
+
   ];
 
   // Handle scroll effect for navbar
